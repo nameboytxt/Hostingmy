@@ -128,4 +128,8 @@ button:focus ~ ul {
     ul {
         width: 100%;
     }
+
+    .info {
+        padding-bottom: 20px;
+    }
 }
