@@ -140,10 +140,10 @@ button:focus ~ ul {
     }
 
     .projeto1 {
-        width: 60%;
-        height: 60%;
+        width: 80%;
+        height: 80%;
         align-items: center;
         padding-top: 20px;
-        padding-left: 20%;
+        padding-left: 10%;
     }
 }
