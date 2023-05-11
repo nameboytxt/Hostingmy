@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap");
+
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: "Kanit", sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+  background-color: #262626;
+  border-bottom: 0.4px solid;
+}
+
+.titulo-menu {
+  font-size: 27px;
+}
+
+.cabecalho .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 32px;
+  font-size: 20px;
+}
+
+.links {
+  color: #ffffff;
+}
+
+.logo {
+  width: 4%;
+  border-radius: 8px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 438px;
+  border-bottom: 0.4px solid;
+}
+
+.conteudo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 138px;
+  border-bottom: 0.4px solid;
+}
+
+.conteudo3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+  padding-bottom: 371px;
+  border-bottom: 0.4px solid;
+}
+
+.titulo {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.subtitulo {
+  font-size: 30px;
+  font-weight: 200;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.rodape {
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4em;
+  justify-content: center;
+  gap: 20px;
+}
+
+.github {
+  height: 40px;
+}
+
+.instagram {
+  height: 40px;
+}
+
+.redes-socias {
+  color: #ffffff;
+}
+
+.titulo-2 {
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+
+.primeiro-projeto {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 3em;
+  border-top: 2px dashed;
+  border-bottom: 2px dashed;
+  padding-bottom: 3em;
+}
+
+.img-projeto {
+  width: 100%;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+
+.paragrafo {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.segundo-projeto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 3em;
+  border-bottom: 2px dashed;
+  padding-bottom: 3em;
+}
+
+.img-projeto2 {
+  width: 82%;
+  margin-right: 80px;
+  border-radius: 10px;
+}
+
+.sobre-min-paragrafo {
+  padding-top: 40px;
+  font-size: 30px;
+  font-weight: 200;
+  padding-bottom: 22px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.btn {
+  border: none;
+  display: none;
+}
