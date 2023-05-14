@@ -6,6 +6,18 @@ body {
   font-family: "Kanit", sans-serif;
 }
 
+body .btn-menu {
+  border: #c7c7c7 0.4px solid;
+  background: none;
+  padding: 8px;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+
+body .btn-menu:hover {
+  background-color: #494949;
+}
+
 .cabecalho {
   display: flex;
   align-items: center;
@@ -76,11 +88,15 @@ body {
 }
 
 .subtitulo {
+  margin-top: 30px;
+  background-color: #3b3b3b;
+  padding-bottom: 40px;
   font-size: 30px;
   font-weight: 200;
   padding-top: 40px;
   padding-left: 10%;
   padding-right: 10%;
+  border-radius:  10px;
 }
 
 .rodape {
@@ -144,18 +160,22 @@ body {
 }
 
 .img-projeto2 {
-  width: 82%;
+  width: 41.5em;
   margin-right: 80px;
   border-radius: 10px;
 }
 
+
 .sobre-min-paragrafo {
+  background-color: #3b3b3b;
+  margin-top: 30px;
   padding-top: 40px;
+  padding-bottom: 40px;
   font-size: 30px;
   font-weight: 200;
-  padding-bottom: 22px;
   padding-left: 10%;
   padding-right: 10%;
+  border-radius:  10px;
 }
 
 .btn {
