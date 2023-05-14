@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap");
 
 body {
-  background-color: #0d0d0d;
+  background-color: #212A3E;
   color: #ffffff;
   font-family: "Kanit", sans-serif;
 }
 
 body .btn-menu {
-  border: #c7c7c7 0.4px solid;
+  border: #9BA4B5 0.4px solid;
   background: none;
   padding: 8px;
-  border-radius: 8px;
+  border-radius: 4px;
   transition: 0.5s;
 }
 
 body .btn-menu:hover {
-  background-color: #494949;
+  background-color: #9BA4B5;
 }
 
 .cabecalho {
@@ -24,7 +24,7 @@ body .btn-menu:hover {
   flex-direction: row;
   justify-content: space-around;
   padding: 15px;
-  background-color: #262626;
+  background-color: #394867;
   border-bottom: 0.4px solid;
 }
 
@@ -68,7 +68,7 @@ body .btn-menu:hover {
   padding-right: 10%;
   padding-top: 50px;
   padding-bottom: 138px;
-  border-bottom: 0.4px solid;
+  border-bottom: 0.4px solid ;
 }
 
 .conteudo3 {
@@ -88,8 +88,9 @@ body .btn-menu:hover {
 }
 
 .subtitulo {
+  color: #212A3E;
   margin-top: 30px;
-  background-color: #3b3b3b;
+  background-color: #F1F6F9;
   padding-bottom: 40px;
   font-size: 30px;
   font-weight: 200;
@@ -100,7 +101,7 @@ body .btn-menu:hover {
 }
 
 .rodape {
-  background-color: #262626;
+  background-color: #394867;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -167,7 +168,8 @@ body .btn-menu:hover {
 
 
 .sobre-min-paragrafo {
-  background-color: #3b3b3b;
+  color: #212A3E;
+  background-color: #E5E9F0;
   margin-top: 30px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -178,7 +180,3 @@ body .btn-menu:hover {
   border-radius:  10px;
 }
 
-.btn {
-  border: none;
-  display: none;
-}
